@@ -26,9 +26,9 @@ void Conta(string Operação)
 {
     Console.Clear();
     Console.WriteLine("Digite o primeiro número e depois aperte enter: ");
-    int Num1= Convert.ToInt32(Console.ReadLine());
+    double Num1= Convert.ToDouble(Console.ReadLine());
     Console.WriteLine("Digite o segundo número e depois aperte enter: ");
-    int Num2 = Convert.ToInt32(Console.ReadLine());
+    double Num2 = Convert.ToDouble(Console.ReadLine());
     Console.Write("O resultado é: ");
     switch (Operação)
     {
